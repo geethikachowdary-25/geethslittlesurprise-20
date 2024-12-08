@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page - 20 Years</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .caption {
+            font-size: 36px;
+            font-weight: bold;
+            color: red;
+            margin-bottom: 40px;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 20px;
+            max-width: 700px;
+            margin-top: 20px;
+        }
+
+        .button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: gold;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffd700;
+        }
+
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #ff4500;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <div class="caption">
+        Nee 20years of life...20mins lo chusedham pada raaaaaaa....
+    </div>
+
+    <div class="button-container">
+        <!-- First row of buttons (1 to 10) -->
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button" onclick="navigateToHandPage()">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button">10</button>
+
+        <!-- Second row of buttons (11 to 20) -->
+        <button class="button">11</button>
+        <button class="button">12</button>
+        <button class="button">13</button>
+        <button class="button">14</button>
+        <button class="button">15</button>
+        <button class="button">16</button>
+        <button class="button">17</button>
+        <button class="button">18</button>
+        <button class="button">19</button>
+        <button class="button">20</button>
+    </div>
+
+    <a href="birthday.html"><button class="back-button">Go Back</button></a>
+
+    <script>
+        function navigateToHandPage() {
+            window.location.href = "7 im.html"; // Link to the new page
+        }
+    </script>
+</body>
+</html>

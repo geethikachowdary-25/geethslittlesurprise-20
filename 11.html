@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Length Images</title>
+    <style>
+        body {
+            background-image: url("E:/magenta.jpg");
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .caption {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .image-container img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="caption">Ninnu ila chudali ani undiiiiii raaa</div>
+    <div class="image-container">
+        <img src="E:/suit.jpg" alt="Suit">
+        <img src="E:/sweat.jpg" alt="Sweat">
+        <img src="E:/checks.jpg" alt="Checks">
+        <img src="E:/white.jpg" alt="White">
+        <img src="E:/blue.jpg" alt="Blue">
+        <img src="E:/suit2.jpg" alt="Suit 2">
+        <img src="E:/pancha.jpg" alt="Pancha">
+        <img src="E:/kurta.jpg" alt="Kurta">
+        <img src="E:/black.jpg" alt="Black">
+    </div>
+</body>
+</html>

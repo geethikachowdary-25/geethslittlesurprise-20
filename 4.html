@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button 4 Page</title>
+    <style>
+        body {
+            background-image: url("E:/bloom.jpeg"); /* Path to the background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .image-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 90%; /* Increases width relative to viewport */
+            height: auto; /* Maintains aspect ratio */
+            max-height: 100%;
+            object-fit: contain; /* Ensures the full image is visible */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: Adds a subtle shadow */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="E:/4.jpg" alt="Button 4 Image"> <!-- Path to the image -->
+    </div>
+</body>
+</html>

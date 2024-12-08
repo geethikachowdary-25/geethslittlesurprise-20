@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Memories</title>
+    <style>
+        body {
+            background-image: url("E:/yellow.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            text-align: center;
+        }
+
+        .caption {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: black;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            aspect-ratio: 16/9; /* Maintains a consistent height-to-width ratio */
+            object-fit: cover; /* Ensures no distortion or cropping */
+            border: 5px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05); /* Adds a zoom effect on hover */
+        }
+
+        .footer {
+            margin: 20px;
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="caption">Manam kalisi tinali....Nene vandi pedathaaa...</div>
+    <div class="image-grid">
+        <img src="E:/biryani.jpg" alt="Biryani">
+        <img src="E:/cake.jpg" alt="Cake">
+        <img src="E:/choc.jpg" alt="Chocolate">
+        <img src="E:/dosa.jpg" alt="Dosa">
+        <img src="E:/noodles.jpg" alt="Noodles">
+        <img src="E:/paneer.jpg" alt="Paneer">
+        <img src="E:/paratha.jpg" alt="Paratha">
+        <img src="E:/pizza.jpg" alt="Pizza">
+        <img src="E:/podhina.jpg" alt="Podhina Rice">
+        <img src="E:/pongal.jpg" alt="Pongal">
+        <img src="E:/pavbhaji.jpg" alt="Pav Bhaji">
+        <img src="E:/oreo.jpg" alt="Oreo"> <!-- Added Oreo Image -->
+    </div>
+    <div class="footer">Bon Appétit!</div>
+</body>
+</html>

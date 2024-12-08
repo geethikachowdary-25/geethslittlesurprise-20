@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page - 20 Years</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .caption {
+            font-size: 36px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 40px;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 20px;
+            max-width: 700px;
+            margin-top: 20px;
+        }
+
+        .button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: gold;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffd700;
+        }
+
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #ff4500;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <div class="caption">
+        Nee 20years of life kosam naa 20 chinni efforts chuseyyyyyy.....
+    </div>
+
+    <div class="button-container">
+        <!-- Buttons 1 to 10 -->
+        <button class="button" onclick="navigateToWelcomePage()">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button" onclick="navigateToImagePage()">4</button>
+        <button class="button" onclick="navigateToFoodPage()">5</button>
+        <button class="button" onclick="navigateToTravelPage()">6</button> <!-- Updated Button 6 -->
+        <button class="button" onclick="navigateToHandPage()">7</button>
+        <button class="button" onclick="navigateToBirthdayPage()">8</button>
+        <button class="button" onclick="navigateToReelPage()">9</button> <!-- Updated to Button 9 -->
+        <button class="button" onclick="navigateToDedicationPage()">10</button>
+
+        <!-- Buttons 11 to 20 -->
+        <button class="button" onclick="navigateToFullLengthPage()">11</button>
+        <button class="button" onclick="navigateToPage12()">12</button>
+        <button class="button">13</button>
+        <button class="button" onclick="navigateToBestSonPage()">14</button>
+        <button class="button">15</button>
+        <button class="button">16</button>
+        <button class="button">17</button>
+        <button class="button">18</button>
+        <button class="button" onclick="navigateToPoemPage()">19</button> <!-- Updated Button 19 -->
+        <button class="button">20</button>
+    </div>
+
+    <a href="birthday.html"><button class="back-button">Go Back</button></a>
+
+    <script>
+         function navigateToWelcomePage() {
+    window.location.href = "1.html";
+}
+
+
+         function navigateToImagePage() {
+            window.location.href = "4.html"; // Redirects to the new page
+        }
+
+         function navigateToFoodPage() {
+        window.location.href = "5.html"; // Button 5 redirects to the food page
+    }
+
+
+         function navigateToTravelPage() {
+            window.location.href = "6.html"; // Button 6 redirects to the travel page
+        }
+
+
+        function navigateToHandPage() {
+            window.location.href = "7 im.html";
+        }
+
+        function navigateToBirthdayPage() {
+            window.location.href = "8 im.html"; // Button 8 will direct to birthday-page.html
+        }
+      
+         function navigateToReelPage() {
+            window.location.href = "9.html"; // Button 9 redirects to the reel page
+        }
+        
+        function navigateToDedicationPage() {
+        window.location.href = "10.html"; // Button 10 redirects to dedication page
+    }
+
+
+        
+    function navigateToFullLengthPage() {
+        window.location.href = "11.html"; // Button 11 redirects here
+    }
+    
+
+    function navigateToPage12() {
+        window.location.href = "12.html"; // Redirect to the wish page
+    }
+
+     function navigateToBestSonPage() {
+    window.location.href = "14.html"; // Ensure the file name matches your saved file
+}
+
+
+        function navigateToPoemPage() {
+            window.location.href = "19.html"; // Button 19 redirects to the poem page
+        }
+    </script>
+</body>
+</html>

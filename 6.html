@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Memories</title>
+    <style>
+        body {
+            background-image: url("E:/bg6.avif");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            text-align: center;
+        }
+
+        .caption {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            aspect-ratio: 16/9; /* Ensures consistent height-to-width ratio */
+            object-fit: cover; /* Maintains image integrity without distortion */
+            border: 5px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05); /* Adds a slight zoom effect on hover */
+        }
+
+        .footer {
+            margin: 20px;
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="caption">Manam twaraga veldam raa....</div>
+    <div class="image-grid">
+        <img src="E:/paris.jpg" alt="Paris">
+        <img src="E:/bridge.jpg" alt="Bridge">
+        <img src="E:/campaign.jpg" alt="Campaign">
+        <img src="E:/carnival.jpg" alt="Carnival">
+        <img src="E:/charminar.jpg" alt="Charminar">
+        <img src="E:/cruise.jpg" alt="Cruise">
+        <img src="E:/dinner.jpg" alt="Dinner">
+        <img src="E:/himalayas.jpg" alt="Himalayas">
+        <img src="E:/hotairballoon.jpg" alt="Hot Air Balloon">
+        <img src="E:/kerala.jpg" alt="Kerala">
+        <img src="E:/longdrive.jpg" alt="Long Drive">
+        <img src="E:/swing.jpg" alt="Swing">
+        <img src="E:/tajmahal.jpg" alt="Taj Mahal">
+        <img src="E:/temple.jpg" alt="Temple">
+        <img src="E:/trecking.jpg" alt="Trekking">
+    </div>
+    <div class="footer">Explore your dreams!</div>
+</body>
+</html>
