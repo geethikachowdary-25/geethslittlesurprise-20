@@ -84,7 +84,7 @@
     <div class="button-container">
         <!-- Buttons 1 to 10 -->
         <button class="button" onclick="navigateToWelcomePage()">1</button>
-        <button class="button">2</button>
+        <button class="button" onclick="navigateToPage('2.html')">Go to Page 2</button>
         <button class="button">3</button>
         <button class="button" onclick="navigateToImagePage()">4</button>
         <button class="button" onclick="navigateToFoodPage()">5</button>
@@ -113,6 +113,10 @@
          function navigateToWelcomePage() {
     window.location.href = "1.html";
 }
+
+         function navigateToPage(page) {
+            window.location.href = page;
+        }
 
 
          function navigateToImagePage() {
