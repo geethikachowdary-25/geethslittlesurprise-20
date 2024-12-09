@@ -85,7 +85,7 @@
         <!-- Buttons 1 to 10 -->
         <button class="button" onclick="navigateToWelcomePage()">1</button>
         <button class="button" onclick="navigateToPage('2.html')">2</button>
-        <button class="button">3</button>
+        <button class="button" onclick="navigateToPage('3.html')">View Gallery</button>
         <button class="button" onclick="navigateToImagePage()">4</button>
         <button class="button" onclick="navigateToFoodPage()">5</button>
         <button class="button" onclick="navigateToTravelPage()">6</button> <!-- Updated Button 6 -->
@@ -117,6 +117,10 @@
          function navigateToPage(page) {
             window.location.href = page;
         }
+
+function navigateToGalleryPage() {
+    window.location.href = "3.html";
+}
 
 
          function navigateToImagePage() {
