@@ -7,14 +7,16 @@
     <style>
         body {
             background-image: url("mix.avif"); /* Background image */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background-size: cover; /* Ensures the image covers the entire page */
+            background-attachment: fixed; /* Keeps the background fixed when scrolling */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents tiling of the image */
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
             color: black;
             text-align: center;
+            height: 100vh; /* Ensures the background spans the full height of the viewport */
         }
 
         .text {
